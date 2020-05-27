@@ -45,7 +45,7 @@
         "title": "Above Ground World News: Home",
         "meta_descr": "Bringing you the News that Mainstream won't!",
         "header_custom": "",
-        "footer_custom": "<object width=\"425\" height=\"344\">\n<param name=\"movie\" value=\"http://www.youtube.com/v/u1zgFlCw8Aw?fs=1\"</param>\n<param name=\"allowFullScreen\" value=\"true\"></param>\n<param name=\"allowScriptAccess\" value=\"always\"></param>\n<embed src=\"https://www.youtube.com/user/lamynespl?fs=1\"\n  type=\"application/x-shockwave-flash\"\n  allowfullscreen=\"true\"\n  allowscriptaccess=\"always\"\n  width=\"425\" height=\"344\">\n</embed>\n</object>",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
@@ -69,11 +69,11 @@
               "width": 1280,
               "height": 720
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.1"
+            "overlayOpacity": "0.6"
           },
-          "title": "<span style=\"font-weight: normal;\">ABOVE GROUND WORLD NEWS</span>",
+          "title": "ABOVE GROUND WORLD NEWS",
           "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
@@ -84,9 +84,9 @@
           "_customCSS": "text-shadow: 0px 11px 10px rgba(0,0,0,0.8);",
           "_styles": {
             ".mbr-section-title": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "72px",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+              "font-size": "60px",
               "text-align": "center",
               "color": "#ffffff"
             },
@@ -95,24 +95,10 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".mbr-section-title SPAN": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
             }
           }
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-4",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
         }
       ]
     }
