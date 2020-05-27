@@ -34,7 +34,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 2,
+    "uniqCompNum": 5,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -45,7 +45,7 @@
         "title": "Above Ground World News: Home",
         "meta_descr": "Bringing you the News that Mainstream won't!",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<object width=\"425\" height=\"344\">\n<param name=\"movie\" value=\"http://www.youtube.com/v/u1zgFlCw8Aw?fs=1\"</param>\n<param name=\"allowFullScreen\" value=\"true\"></param>\n<param name=\"allowScriptAccess\" value=\"always\"></param>\n<embed src=\"https://www.youtube.com/user/lamynespl?fs=1\"\n  type=\"application/x-shockwave-flash\"\n  allowfullscreen=\"true\"\n  allowscriptaccess=\"always\"\n  width=\"425\" height=\"344\">\n</embed>\n</object>",
         "html_before": ""
       },
       "components": [
@@ -69,7 +69,7 @@
               "width": 1280,
               "height": 720
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#000000",
             "overlayOpacity": "0.1"
           },
@@ -99,6 +99,20 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           }
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     }

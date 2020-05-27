@@ -733,3 +733,15 @@ section.form .container {
 #header4-1 .mbr-section-title SPAN {
   font-family: 'Open Sans', sans-serif;
 }
+#custom-html-4 {
+  /* Type valid CSS here */
+}
+#custom-html-4 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-4 p {
+  font-size: 60px;
+  color: #777;
+}
