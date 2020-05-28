@@ -76,7 +76,7 @@
     "pwa-switcher": "on",
     "firebaseSnippet": "",
     "сanonical-url": "",
-    "uniqCompNum": 38,
+    "uniqCompNum": 40,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "canonical-url": "https://lamynes.github.io/agwn/",
@@ -278,6 +278,43 @@
           "_anchor": "custom-html-v",
           "_PHPplaceholders": [],
           "_JSplaceholders": []
+        },
+        {
+          "alias": "social-feed/amp-social-feed",
+          "_isSecondary": true,
+          "typeCompatible": "isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            ".facebook-page-wrapper": {
+              "margin": "auto",
+              "max-width": "500px",
+              "@media (max-width: 499)": {
+                "width": "100%"
+              },
+              "& when (@showSubtitle)": {
+                "padding-top": "1rem"
+              }
+            }
+          },
+          "_name": "facebook-page",
+          "_customHTML": "<section class=\"amp-facebook-page mbr-section\" group=\"Custom block\" plugins=\"amp-main, amp-facebook-page\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\n        <header>Facebook</header>\n        <input type=\"text\" title=\"'Page'\" name=\"facebookPage\" value=\"https://www.facebook.com/AboveGroundWorldNews\">\n        <input type=\"text\" inline title=\"Tabs (timeline, events)\" name=\"fbDataTabs\" value=\"timeline, events\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../assets/background.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f6efe9\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"bg.type!='color' && overlay\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-center\">\n        <div class=\"title\">\n            <h3 class=\"mbr-fonts-style mbr-bold mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                AMP Facebook \"Page\"\n            </h3>\n            <h4 class=\"mbr-fonts-style mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                AMP Facebook \"Page\" Subtitle\n            </h4>\n        </div>\n        <div class=\"facebook-page-wrapper\">\n            <amp-facebook-page width=\"16\" height=\"9\" layout=\"responsive\" data-tabs=\"{{fbDataTabs}}\" data-href=\"https://www.facebook.com/AboveGroundWorldNews\">\n            </amp-facebook-page>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "s0iclxPbxM",
+          "_anchor": "facebook-page-13",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
