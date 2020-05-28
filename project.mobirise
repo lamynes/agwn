@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-07-21_1024",
+    "name": "agwn",
     "currentPage": "index.html",
     "theme": {
       "name": "appamp",
@@ -79,7 +79,7 @@
     "uniqCompNum": 38,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
-    "canonical-url": "https://lamynes.github.io/agwn/index.html",
+    "canonical-url": "https://lamynes.github.io/agwn/",
     "imageResize": true,
     "cssOptimize": true,
     "robotsSwitcher": false,
