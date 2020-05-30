@@ -751,15 +751,6 @@ section.form .container {
 #custom-html-r {
   /* Type valid CSS here */
 }
-#custom-html-r div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-r p {
-  font-size: 60px;
-  color: #777;
-}
 #custom-html-r .embed-container {
   position: relative;
   padding-bottom: 56.25%;
