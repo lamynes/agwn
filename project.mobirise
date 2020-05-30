@@ -119,7 +119,7 @@
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/612664395a40232133447d33247d383335373731373638-1024x778.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -157,7 +157,7 @@
           "_anchor": "msg-box5-j",
           "_styles": {
             "P": {
-              "color": "#b8312f"
+              "color": "#000000"
             },
             "I": {
               "font-size": "25px"
@@ -259,7 +259,7 @@
             "bgColor": "#efefef",
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.7"
+            "overlayOpacity": "0.8"
           },
           "media1": {
             "iconFont": {
