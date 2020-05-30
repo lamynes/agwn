@@ -245,7 +245,7 @@
           "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
           "text2": "+1 (0) 000 0000 001 or +1 (0) 000 0000 002",
           "text3": "1234 Street Name, City AA 99999",
-          "text4": "<a href=\"mailto:support@mobirise.com\">support@agwn.com</a>",
+          "text4": "support@agwn.com",
           "text6": "<strong>Contacts</strong><br>Email: support@agwn.com<br>Phone: +1 (0) 000 0000 001<br>Fax: +1 (0) 000 0000 002<br><br><br><strong>Address</strong><br>1234 Street Name<br>City, AA 99999",
           "form": {
             "title": "MESSAGE",
