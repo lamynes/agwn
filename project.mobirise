@@ -34,7 +34,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 26,
+    "uniqCompNum": 27,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -116,10 +116,10 @@
             "imageSize": 50,
             "paddingTop": "4",
             "paddingBottom": "3",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/612664395a40232133447d33247d383335373731373638-1024x778.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
+            "parallax": false,
+            "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -127,7 +127,7 @@
             },
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.2"
+            "overlayOpacity": "0.7"
           },
           "media": {
             "image": {
@@ -210,6 +210,26 @@
           "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "CHEMTRAILS, AEROSOLS, NANO PARTICULATES",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-q"
+        },
+        {
           "_inherit": "contacts3",
           "_styles": {
             "p, .list-group-text, .form-control-label": {
@@ -232,14 +252,14 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/airlines-white-849x601.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#efefef",
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
           },
           "media1": {
             "iconFont": {
@@ -290,7 +310,7 @@
             }
           },
           "title1": "Categories",
-          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text1": "We are on a mission to bring you the NEWS that mainstream won't!",
           "text2": "+1 (0) 000 0000 001 or +1 (0) 000 0000 002",
           "text3": "1234 Street Name, City AA 99999",
           "text4": "support@agwn.com",
