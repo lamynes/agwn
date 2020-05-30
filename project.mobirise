@@ -169,6 +169,12 @@
           "_styles": {
             ".mbr-section-title, .lead": {
               "color": "#fff"
+            },
+            ".lead P": {
+              "font-size": "30px"
+            },
+            ".lead": {
+              "color": "#efefef"
             }
           },
           "_params": {
@@ -190,8 +196,8 @@
               "height": 720
             },
             "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
           },
           "title": "DOES THIS LOOK NATURAL?",
           "text": "<p>They call this FIRENADO</p>",
@@ -200,7 +206,8 @@
             "Theme"
           ],
           "_name": "msg-box8",
-          "_anchor": "msg-box8-p"
+          "_anchor": "msg-box8-p",
+          "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
         },
         {
           "_inherit": "contacts3",
