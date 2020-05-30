@@ -738,3 +738,22 @@ section.form .container {
 #msg-box5-j P {
   color: #b8312f;
 }
+#contacts5-o p,
+#contacts5-o .list-group-text,
+#contacts5-o .form-control-label {
+  color: #000;
+}
+#contacts5-o strong,
+#contacts5-o h4 {
+  color: #7e9b9f;
+}
+#contacts5-o form .form-control {
+  border-color: rgba(0, 0, 0, 0.2);
+  color: #565656;
+}
+#contacts5-o .mbr-footer-content li {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+#contacts5-o .mbr-company .list-group-text::after {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
