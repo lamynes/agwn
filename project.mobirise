@@ -34,7 +34,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 22,
+    "uniqCompNum": 24,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -70,14 +70,16 @@
             },
             ".mbr-section-title": {
               "color": "#ffffff",
-              "font-size": "80px"
+              "font-size": "72px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButton": true,
-            "paddingTop": "5",
+            "paddingTop": "2",
             "paddingBottom": "5",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
