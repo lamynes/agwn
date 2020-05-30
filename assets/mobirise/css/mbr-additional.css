@@ -6,7 +6,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -743,8 +742,7 @@ section.form .container {
   color: #b8312f;
 }
 #msg-box5-j I {
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
 }
 #contacts5-o p,
 #contacts5-o .list-group-text,
