@@ -148,7 +148,7 @@
             }
           },
           "title": "WEATHER WARFARE",
-          "text": "<b>16 DAY FORECAST EVERY SUNDAY<br>LIVE UPDATES EVERY NIGHT</b>.",
+          "text": "<b><i>16 DAY FORECAST</i>&nbsp;- EVERY SUNDAY NIGHT<br><i>LIVE STREAM UPDATES</i> - EVERY NIGHT</b>.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>",
           "_tags": [
             "Theme"
@@ -158,6 +158,11 @@
           "_styles": {
             "P": {
               "color": "#b8312f"
+            },
+            "I": {
+              "font-size": "20px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
