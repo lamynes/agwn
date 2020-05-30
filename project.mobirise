@@ -197,7 +197,7 @@
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.3"
+            "overlayOpacity": "0.1"
           },
           "title": "DOES THIS LOOK NATURAL?",
           "text": "<p>They call this FIRENADO</p>",
