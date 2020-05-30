@@ -76,8 +76,8 @@
             "showTitle": true,
             "showText": true,
             "showButton": false,
-            "paddingTop": "4",
-            "paddingBottom": "4",
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
@@ -91,7 +91,7 @@
               "height": 720
             },
             "overlay": true,
-            "overlayColor": "#222",
+            "overlayColor": "#000000",
             "overlayOpacity": "0.3"
           },
           "title": "ABOVE GROUND WORLD NEWS",
@@ -101,7 +101,8 @@
             "Theme"
           ],
           "_name": "msg-box8",
-          "_anchor": "msg-box8-d"
+          "_anchor": "msg-box8-d",
+          "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
         },
         {
           "_params": {

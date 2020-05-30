@@ -724,6 +724,9 @@ section.form .container {
   font-size: 60px;
   color: #777;
 }
+#msg-box8-d {
+  text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
+}
 #msg-box8-d .mbr-section-title,
 #msg-box8-d .lead {
   color: #fff;
