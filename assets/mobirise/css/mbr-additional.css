@@ -744,6 +744,10 @@ section.form .container {
 #msg-box5-j I {
   font-size: 25px;
 }
+#header3-q .mbr-section-title,
+#header3-q .mbr-section-subtitle {
+  text-align: center;
+}
 #msg-box8-p {
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
 }
@@ -756,10 +760,6 @@ section.form .container {
 }
 #msg-box8-p .lead {
   color: #efefef;
-}
-#header3-q .mbr-section-title,
-#header3-q .mbr-section-subtitle {
-  text-align: center;
 }
 #contacts5-o p,
 #contacts5-o .list-group-text,
