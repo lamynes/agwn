@@ -735,6 +735,10 @@ section.form .container {
   font-size: 72px;
   font-family: 'Oswald', sans-serif;
 }
+#header3-q .mbr-section-title,
+#header3-q .mbr-section-subtitle {
+  text-align: center;
+}
 #msg-box5-j {
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
 }
@@ -744,9 +748,33 @@ section.form .container {
 #msg-box5-j I {
   font-size: 25px;
 }
-#header3-q .mbr-section-title,
-#header3-q .mbr-section-subtitle {
+#custom-html-r {
+  /* Type valid CSS here */
+}
+#custom-html-r div {
+  padding: 80px 0;
+  color: #777;
   text-align: center;
+}
+#custom-html-r p {
+  font-size: 60px;
+  color: #777;
+}
+#custom-html-r .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+#custom-html-r .embed-container iframe,
+#custom-html-r .embed-container object,
+#custom-html-r .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 #msg-box8-p {
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
