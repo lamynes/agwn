@@ -116,10 +116,10 @@
             "imageSize": 50,
             "paddingTop": "2",
             "paddingBottom": "2",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/612664395a40232133447d33247d383335373731373638-1024x778.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
