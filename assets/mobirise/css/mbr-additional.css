@@ -735,6 +735,9 @@ section.form .container {
   font-size: 72px;
   font-family: 'Oswald', sans-serif;
 }
+#msg-box5-j {
+  text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
+}
 #msg-box5-j P {
   color: #b8312f;
 }

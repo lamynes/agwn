@@ -159,7 +159,8 @@
             "P": {
               "color": "#b8312f"
             }
-          }
+          },
+          "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
         },
         {
           "_inherit": "contacts3",
