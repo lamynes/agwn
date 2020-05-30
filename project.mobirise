@@ -114,8 +114,8 @@
             "showButtons": true,
             "inverse": false,
             "imageSize": 50,
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "4",
+            "paddingBottom": "3",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/612664395a40232133447d33247d383335373731373638-1024x778.jpg",
             "parallax": true,
@@ -147,7 +147,7 @@
               "size": 0
             }
           },
-          "title": "WEATHER WARFARE WATCH",
+          "title": "WEATHER WARFARE WATCH!",
           "text": "<b><i>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</i></b>.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>",
           "_tags": [
@@ -181,8 +181,8 @@
             "showTitle": true,
             "showText": true,
             "showButton": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
@@ -200,7 +200,7 @@
             "overlayOpacity": "0.1"
           },
           "title": "DOES THIS LOOK NATURAL?",
-          "text": "<p>They call this FIRENADO</p>",
+          "text": "<p>They call this a <b><i>FIRENADO</i></b></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
