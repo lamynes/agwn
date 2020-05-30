@@ -34,7 +34,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 10,
+    "uniqCompNum": 12,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -69,7 +69,7 @@
               "width": 1280,
               "height": 720
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#000000",
             "overlayOpacity": "0.2"
           },
@@ -84,8 +84,8 @@
           "_customCSS": "text-shadow: 0px 11px 10px rgba(0,0,0,0.8);",
           "_styles": {
             ".mbr-section-title": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
               "font-size": "60px",
               "text-align": "center",
               "color": "#ffffff"
