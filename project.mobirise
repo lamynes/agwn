@@ -95,7 +95,7 @@
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.3"
+            "overlayOpacity": "0.1"
           },
           "title": "ABOVE GROUND WORLD NEWS",
           "text": "<p>Bringing you the NEWS that mainstream won't!</p>",
