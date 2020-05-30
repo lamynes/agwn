@@ -80,7 +80,7 @@
             "showText": true,
             "showButton": true,
             "paddingTop": "2",
-            "paddingBottom": "4",
+            "paddingBottom": "5",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
