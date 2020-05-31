@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700&display=swap);
+
 
 
 
@@ -748,6 +750,7 @@ section.form .container {
 }
 #msg-box8-d .lead {
   color: #b8312f;
+  font-family: 'Lora', serif;
 }
 #msg-box8-d .lead B {
   font-size: 20px;
@@ -761,9 +764,9 @@ section.form .container {
   text-align: center;
 }
 #header3-s .mbr-section-subtitle {
-  font-size: 30px;
+  font-size: 20px;
   color: #b8312f;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lora', serif;
 }
 #header3-s .mbr-section-title {
   font-family: 'Oswald', sans-serif;
@@ -776,7 +779,7 @@ section.form .container {
 }
 #msg-box5-j I {
   font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lora', serif;
 }
 #msg-box5-j H3 {
   color: #000000;
@@ -792,6 +795,9 @@ section.form .container {
 #header3-q .mbr-section-title {
   font-size: 36px;
   font-family: 'Oswald', sans-serif;
+}
+#header3-q .mbr-section-subtitle {
+  font-size: 20px;
 }
 #custom-html-r {
   /* Type valid CSS here */
