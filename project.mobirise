@@ -78,7 +78,7 @@
               "font-size": "30px"
             },
             ".lead": {
-              "color": "#d14841"
+              "color": "#b8312f"
             },
             ".lead B": {
               "font-size": "20px"
@@ -122,7 +122,8 @@
               "text-align": "center"
             },
             ".mbr-section-subtitle": {
-              "font-size": "30px"
+              "font-size": "30px",
+              "color": "#b8312f"
             }
           },
           "_params": {
@@ -146,9 +147,9 @@
             "showText": true,
             "showButtons": true,
             "inverse": false,
-            "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "imageSize": "58",
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/5ed3b22d18cb3-998x560.jpg",
             "parallax": true,
@@ -252,7 +253,7 @@
               "font-size": "30px"
             },
             ".lead": {
-              "color": "#efefef"
+              "color": "#eb6b56"
             }
           },
           "_params": {
