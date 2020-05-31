@@ -42,7 +42,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Above Ground World News",
+        "title": "AGWN: Above Ground World News",
         "meta_descr": "Bringing you the News that Mainstream won't!",
         "header_custom": "",
         "footer_custom": "",
@@ -171,7 +171,7 @@
             },
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.6"
+            "overlayOpacity": "0.8"
           },
           "media": {
             "image": {
