@@ -81,7 +81,9 @@
               "color": "#b8312f"
             },
             ".lead B": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_params": {
@@ -107,7 +109,7 @@
             "overlayOpacity": "0.1"
           },
           "title": "WELCOME TO AGWN",
-          "text": "<b>Bringing you the NEWS that mainstream won't!</b>",
+          "text": "Bringing you the NEWS that mainstream won't!",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ALL VIDEOS</a>",
           "_tags": [
             "Theme"
@@ -123,7 +125,13 @@
             },
             ".mbr-section-subtitle": {
               "font-size": "30px",
-              "color": "#b8312f"
+              "color": "#b8312f",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_params": {
@@ -194,7 +202,7 @@
               "color": "#b8312f"
             },
             "I": {
-              "font-size": "25px",
+              "font-size": "20px",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
@@ -212,7 +220,9 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "36px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_params": {
@@ -250,10 +260,16 @@
               "color": "#fff"
             },
             ".lead P": {
-              "font-size": "30px"
+              "font-size": "30px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".lead": {
-              "color": "#eb6b56"
+              "color": "#b8312f"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_params": {
