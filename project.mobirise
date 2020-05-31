@@ -34,7 +34,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 28,
+    "uniqCompNum": 29,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -73,13 +73,22 @@
               "font-size": "72px",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".lead P": {
+              "font-size": "30px"
+            },
+            ".lead": {
+              "color": "#d14841"
+            },
+            ".lead B": {
+              "font-size": "20px"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButton": true,
-            "paddingTop": "2",
+            "paddingTop": "5",
             "paddingBottom": "5",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
@@ -97,8 +106,8 @@
             "overlayColor": "#000000",
             "overlayOpacity": "0.1"
           },
-          "title": "ABOVE GROUND WORLD NEWS",
-          "text": "<p>Bringing you the NEWS that mainstream won't!</p>",
+          "title": "WELCOME TO AGWN",
+          "text": "<b>Bringing you the NEWS that mainstream won't!</b>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ALL VIDEOS</a>",
           "_tags": [
             "Theme"
@@ -111,21 +120,25 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "30px"
             }
           },
           "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "title": "CHEMTRAILS, AEROSOLS, NANO PARTICULATES",
-          "meta": "By John Smith posted July 20, 2016",
+          "title": "ABOVE GROUND WORLD NEWS",
+          "meta": "By Mike Morales",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-q"
+          "_anchor": "header3-s",
+          "_customCSS": "text-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.6);"
         },
         {
           "_params": {
@@ -136,18 +149,18 @@
             "imageSize": 50,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/612664395a40232133447d33247d383335373731373638-1024x778.jpg",
-            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/agwn-plane-1-2000x1125.jpg",
+            "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": "0.7"
+            "overlay": false,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0"
           },
           "media": {
             "image": {
@@ -168,7 +181,7 @@
             }
           },
           "title": "WEATHER WARFARE WATCH!",
-          "text": "<b><i>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</i></b>.",
+          "text": "<b><i>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</i>.</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>",
           "_tags": [
             "Theme"
@@ -177,12 +190,43 @@
           "_anchor": "msg-box5-j",
           "_styles": {
             "P": {
-              "color": "#000000"
+              "color": "#b8312f"
             },
             "I": {
-              "font-size": "25px"
+              "font-size": "25px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            "H3": {
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
+          "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff"
+          },
+          "title": "CHEMTRAILS, AEROSOLS, NANO PARTICULATES",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-q",
           "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
         },
         {
@@ -264,8 +308,8 @@
             }
           },
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/airlines-white-849x601.jpg",
             "parallax": true,
@@ -328,7 +372,7 @@
           "text2": "+1 (0) 000 0000 001 or +1 (0) 000 0000 002",
           "text3": "1234 Street Name, City AA 99999",
           "text4": "support@agwn.com",
-          "text6": "<strong>Contacts</strong><br>Email: support@agwn.com<br>Phone: +1 (0) 000 0000 001<br>Fax: +1 (0) 000 0000 002<br><br><br><strong>Address</strong><br>1234 Street Name<br>City, AA 99999",
+          "text6": "<strong>Contacts &nbsp;</strong>Email: support@agwn.com<strong>Address&nbsp;</strong>USA",
           "form": {
             "title": "MESSAGE",
             "action": "lamynes.pl@gmail.com",

@@ -6,6 +6,8 @@
 
 
 
+
+
 body,
 input,
 textarea,
@@ -735,18 +737,48 @@ section.form .container {
   font-size: 72px;
   font-family: 'Oswald', sans-serif;
 }
-#header3-q .mbr-section-title,
-#header3-q .mbr-section-subtitle {
+#msg-box8-d .lead P {
+  font-size: 30px;
+}
+#msg-box8-d .lead {
+  color: #d14841;
+}
+#msg-box8-d .lead B {
+  font-size: 20px;
+}
+#header3-s {
+  text-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.6);
+}
+#header3-s .mbr-section-title,
+#header3-s .mbr-section-subtitle {
   text-align: center;
+}
+#header3-s .mbr-section-subtitle {
+  font-size: 30px;
 }
 #msg-box5-j {
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
 }
 #msg-box5-j P {
-  color: #000000;
+  color: #b8312f;
 }
 #msg-box5-j I {
   font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+#msg-box5-j H3 {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+#header3-q {
+  text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
+}
+#header3-q .mbr-section-title,
+#header3-q .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-q .mbr-section-title {
+  font-size: 36px;
 }
 #custom-html-r {
   /* Type valid CSS here */
