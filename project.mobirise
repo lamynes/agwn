@@ -70,7 +70,7 @@
             },
             ".mbr-section-title": {
               "color": "#ffffff",
-              "font-size": "72px",
+              "font-size": "100px",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
@@ -80,7 +80,8 @@
             ".lead": {
               "color": "#b8312f",
               "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "30px"
             },
             ".lead B": {
               "font-size": "20px",
