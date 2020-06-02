@@ -12,8 +12,6 @@
 
 
 
-
-
 body,
 input,
 textarea,
@@ -799,23 +797,6 @@ section.form .container {
 }
 #header3-q .mbr-section-subtitle {
   font-size: 20px;
-}
-#msg-box8-p {
-  text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
-}
-#msg-box8-p .mbr-section-title,
-#msg-box8-p .lead {
-  color: #fff;
-}
-#msg-box8-p .lead P {
-  font-size: 30px;
-  font-family: 'Oswald', sans-serif;
-}
-#msg-box8-p .lead {
-  color: #b8312f;
-}
-#msg-box8-p .mbr-section-title {
-  font-family: 'Oswald', sans-serif;
 }
 #contacts5-o p,
 #contacts5-o .list-group-text,
