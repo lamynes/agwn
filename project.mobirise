@@ -34,7 +34,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 31,
+    "uniqCompNum": 32,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -113,7 +113,7 @@
           },
           "title": "WELCOME TO AGWN",
           "text": "Bringing you the NEWS that mainstream won't!",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ALL VIDEOS</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw?sub_confirmation=1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE</a> ",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ALL VIDEOS</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw?sub_confirmation=1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SUBSCRIBE TO OUR CHANNEL</a> ",
           "_tags": [
             "Theme"
           ],
@@ -206,127 +206,30 @@
           "_name": "msg-box5",
           "_anchor": "msg-box5-j",
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Lora:400,700);\n@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);\nP {\n  color: #b8312f;\n}\nI {\n  font-size: 20px;\n  font-family: 'Lora', serif;\n}\nH3 {\n  color: #000000;\n  font-family: 'Oswald', sans-serif;\n}\ntext-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);",
-          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"6\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/5ed3b22d18cb3-998x560.jpg&quot;); padding-top: 200px; padding-bottom: 200px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.8; background-color: rgb(255, 255, 255);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              \n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-right content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"22\">WEATHER WARFARE WATCH!</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"23\"><strong><em>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</em>.</strong></p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-danger mbr-editable-button\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" target=\"_blank\" code-editable-id=\"24\">MORE</a></div>\n              </div>\n\n\n              \n\n\n              <div class=\"mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 58%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=UU6yLktIZU6oiYq618ZDP_Nw\" width=\"1380\" height=\"920\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"6\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/5ed3b22d18cb3-998x560.jpg&quot;); padding-top: 200px; padding-bottom: 200px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.8; background-color: rgb(255, 255, 255);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              \n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-right content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"13\">WEATHER WARFARE WATCH!</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"14\"><strong><em>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</em>.</strong></p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-danger mbr-editable-button\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" target=\"_blank\" code-editable-id=\"15\">MORE</a></div>\n              </div>\n\n\n              \n\n\n              <div class=\"mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 58%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=UU6yLktIZU6oiYq618ZDP_Nw\" width=\"1380\" height=\"920\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
         },
         {
-          "_inherit": "contacts3",
-          "_styles": {
-            "p, .list-group-text, .form-control-label": {
-              "color": "#000"
-            },
-            "strong, h4": {
-              "color": "#7e9b9f"
-            },
-            "form .form-control": {
-              "border-color": "rgba(0, 0, 0, 0.2)",
-              "color": "#565656"
-            },
-            ".mbr-footer-content li": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
-            },
-            ".mbr-company .list-group-text::after": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
-            }
-          },
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/airlines-white-849x601.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": "0.8"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "phone",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "map-pin",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "envelope",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text5": "<li><a class=\"text-primary\" href=\"index.html\">Business</a></li><li><a class=\"text-primary\" href=\"#\">Design</a></li><li><a class=\"text-primary\" href=\"#\">Real life</a></li><li><a class=\"text-primary\" href=\"#\">Science</a></li><li><a class=\"text-primary\" href=\"#\">Tech</a></li>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact us</a>",
+          "text": "Copyright (c) 2020 AGWN.",
           "_tags": [
             "Theme"
           ],
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logomakr-5vhdt0-120x109.png",
-              "class": "card-img-top",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title1": "Categories",
-          "text1": "We are on a mission to bring you the NEWS that mainstream won't!",
-          "text2": "+1 (0) 000 0000 001 or +1 (0) 000 0000 002",
-          "text3": "1234 Street Name, City AA 99999",
-          "text4": "support@agwn.com",
-          "text6": "<strong>Contacts &nbsp;</strong>Email: support@agwn.com<strong>Address&nbsp;</strong>USA",
-          "form": {
-            "title": "MESSAGE",
-            "action": "lamynes.pl@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "_name": "contacts5",
-          "_anchor": "contacts5-o"
+          "_name": "footer1",
+          "_anchor": "footer1-v"
         }
       ]
     }
