@@ -762,10 +762,14 @@ section.form .container {
 }
 #header3-s .mbr-section-subtitle {
   font-size: 20px;
-  color: #b8312f;
+  color: #000000;
   font-family: 'Lora', serif;
 }
 #header3-s .mbr-section-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+}
+#header3-s .mbr-section-subtitle B {
   font-family: 'Oswald', sans-serif;
 }
 #msg-box5-j {
@@ -783,20 +787,6 @@ section.form .container {
 #msg-box5-j H3 {
   color: #000000;
   font-family: 'Oswald', sans-serif;
-}
-#header3-q {
-  text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
-}
-#header3-q .mbr-section-title,
-#header3-q .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-q .mbr-section-title {
-  font-size: 36px;
-  font-family: 'Oswald', sans-serif;
-}
-#header3-q .mbr-section-subtitle {
-  font-size: 20px;
 }
 #contacts5-o p,
 #contacts5-o .list-group-text,

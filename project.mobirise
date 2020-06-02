@@ -128,11 +128,16 @@
             },
             ".mbr-section-subtitle": {
               "font-size": "20px",
-              "color": "#b8312f",
+              "color": "#000000",
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             },
             ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "60px"
+            },
+            ".mbr-section-subtitle B": {
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
@@ -140,11 +145,11 @@
           "_params": {
             "showMeta": true,
             "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingBottom": "3",
             "bgColor": "#fff"
           },
           "title": "ABOVE GROUND WORLD NEWS",
-          "meta": "By Mike Morales",
+          "meta": "<b>Watch our latest LIVE STREAMS from ABOVE GROUND WORLD NEWS</b>",
           "_tags": [
             "Theme"
           ],
@@ -207,35 +212,6 @@
           "_customTemplate": true
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "font-size": "36px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            },
-            ".mbr-section-subtitle": {
-              "font-size": "20px"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "title": "CHEMTRAILS, AEROSOLS, NANO PARTICULATES",
-          "meta": "Watch our latest <b>LIVE STREAMS</b> from <b>ABOVE GROUND WORLD NEWS</b>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-q",
-          "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
-        },
-        {
           "_inherit": "contacts3",
           "_styles": {
             "p, .list-group-text, .form-control-label": {
@@ -256,12 +232,12 @@
             }
           },
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/airlines-white-849x601.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#efefef",
             "overlay": true,
             "overlayColor": "#ffffff",
