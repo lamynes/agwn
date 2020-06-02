@@ -268,7 +268,7 @@
             },
             "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": "0.2"
+            "overlayOpacity": "0.3"
           },
           "title": "BUNKER FUEL POLUTION",
           "text": "THESE SHIPS AFFECT THE WEATHER WITH THEIR FUEL BEING USED",
