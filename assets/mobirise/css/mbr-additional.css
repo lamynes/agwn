@@ -791,6 +791,13 @@ section.form .container {
   color: #000000;
   font-family: 'Oswald', sans-serif;
 }
+#header3-10 {
+  text-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.6);
+}
+#header3-10 .mbr-section-title,
+#header3-10 .mbr-section-subtitle {
+  text-align: center;
+}
 #msg-box8-z {
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
 }

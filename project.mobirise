@@ -20,7 +20,9 @@
         "isScrollToTopButton": true,
         "isRtl": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#1d1d1d"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
@@ -34,7 +36,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 36,
+    "uniqCompNum": 37,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -93,7 +95,7 @@
             "showTitle": true,
             "showText": true,
             "showButton": true,
-            "paddingTop": "5",
+            "paddingTop": "1",
             "paddingBottom": "5",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
@@ -213,6 +215,27 @@
         },
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "FROM THE SKY AND THE SEA",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-10",
+          "_customCSS": "text-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.6);"
+        },
+        {
+          "_styles": {
             ".mbr-section-title, .lead": {
               "color": "#fff"
             },
@@ -265,7 +288,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#323232",
+            "bgColor": "#1d1d1d",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
