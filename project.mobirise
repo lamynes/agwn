@@ -129,12 +129,12 @@
             ".mbr-section-subtitle": {
               "font-size": "20px",
               "color": "#000000",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             },
             ".mbr-section-title": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-size": "60px"
             },
             ".mbr-section-subtitle B": {
@@ -205,8 +205,8 @@
           ],
           "_name": "msg-box5",
           "_anchor": "msg-box5-j",
-          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Lora:400,700);\n@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);\nP {\n  color: #b8312f;\n}\nI {\n  font-size: 20px;\n  font-family: 'Lora', serif;\n}\nH3 {\n  color: #000000;\n  font-family: 'Oswald', sans-serif;\n}\ntext-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);",
-          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"6\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/5ed3b22d18cb3-998x560.jpg&quot;); padding-top: 100px; padding-bottom: 100px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.8; background-color: rgb(255, 255, 255);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              \n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-right content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"15\">WEATHER WARFARE WATCH!</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"16\"><strong><em>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</em>.</strong></p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-danger mbr-editable-button\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" target=\"_blank\" code-editable-id=\"17\">MORE</a></div>\n              </div>\n\n\n              \n\n\n              <div class=\"mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 58%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=UU6yLktIZU6oiYq618ZDP_Nw\" width=\"1380\" height=\"920\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Lora:400,700);\n@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);\nP {\n  color: #b8312f;\n}\nI {\n  font-size: 20px;\n  font-family: 'Lora', serif;\n}\nH3 {\n  color: #000000;\n  font-family: 'Oswald', sans-serif;\n}\ntext-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);",
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"6\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/5ed3b22d18cb3-998x560.jpg&quot;); padding-top: 100px; padding-bottom: 100px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.8; background-color: rgb(255, 255, 255);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              \n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-right content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-family: Raleway, sans-serif;\" code-editable-id=\"9\">WEATHER WARFARE WATCH!</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"10\"><strong><em>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</em>.</strong></p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-danger mbr-editable-button\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" target=\"_blank\" code-editable-id=\"11\">MORE</a></div>\n              </div>\n\n\n              \n\n\n              <div class=\"mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 58%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=UU6yLktIZU6oiYq618ZDP_Nw\" width=\"1380\" height=\"920\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
@@ -215,12 +215,20 @@
           "_styles": {
             ".mbr-section-title, .lead": {
               "color": "#fff"
+            },
+            ".lead": {
+              "font-size": "20px"
+            },
+            ".mbr-section-title": {
+              "font-size": "48px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_params": {
             "showTitle": true,
-            "showText": false,
-            "showButton": false,
+            "showText": true,
+            "showButton": true,
             "paddingTop": "5",
             "paddingBottom": "5",
             "bgImageRadio": false,
@@ -235,18 +243,19 @@
               "width": 1280,
               "height": 720
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.2"
           },
           "title": "BUNKER FUEL POLUTION",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "text": "THESE SHIPS AFFECT THE WEATHER WITH THEIR FUEL BEING USED",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://g.co/kgs/DCy9Ni\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">READ MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box8",
-          "_anchor": "msg-box8-z"
+          "_anchor": "msg-box8-z",
+          "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);"
         },
         {
           "_params": {
