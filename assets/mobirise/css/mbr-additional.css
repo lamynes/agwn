@@ -14,8 +14,6 @@
 
 
 
-
-
 body,
 input,
 textarea,
@@ -773,6 +771,8 @@ section.form .container {
   font-family: 'Oswald', sans-serif;
 }
 #msg-box5-j {
+  
+  
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
 }
 #msg-box5-j P {
@@ -799,25 +799,6 @@ section.form .container {
 }
 #header3-q .mbr-section-subtitle {
   font-size: 20px;
-}
-#custom-html-r {
-  /* Type valid CSS here */
-}
-#custom-html-r .embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-#custom-html-r .embed-container iframe,
-#custom-html-r .embed-container object,
-#custom-html-r .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 #msg-box8-p {
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
