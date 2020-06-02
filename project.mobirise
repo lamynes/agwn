@@ -129,8 +129,8 @@
             ".mbr-section-subtitle": {
               "font-size": "20px",
               "color": "#000000",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-section-title": {
               "font-family": "'Oswald', sans-serif",
@@ -148,8 +148,8 @@
             "paddingBottom": "3",
             "bgColor": "#fff"
           },
-          "title": "ABOVE GROUND WORLD NEWS",
-          "meta": "<b>Watch our latest LIVE STREAMS from ABOVE GROUND WORLD NEWS</b>",
+          "title": "ABOVE GROUND WORLD NEWS<br>",
+          "meta": "<br>Watch our latest <b>LIVE STREAMS </b>from <b>ABOVE GROUND WORLD NEWS</b>",
           "_tags": [
             "Theme"
           ],
