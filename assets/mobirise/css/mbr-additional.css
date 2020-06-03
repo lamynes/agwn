@@ -791,6 +791,16 @@ section.form .container {
   color: #000000;
   font-family: 'Oswald', sans-serif;
 }
+#msg-box8-17 {
+  text-shadow: 0.8em 0.8em 1.5em rgba(0, 0, 0, 0.6);
+}
+#msg-box8-17 .mbr-section-title,
+#msg-box8-17 .lead {
+  color: #fff;
+}
+#msg-box8-17 .lead {
+  font-size: 20px;
+}
 #header3-10 {
   text-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.6);
 }
