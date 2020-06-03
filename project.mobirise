@@ -36,7 +36,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 44,
+    "uniqCompNum": 46,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -207,11 +207,42 @@
           ],
           "_name": "msg-box5",
           "_anchor": "msg-box5-j",
-          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Lora:400,700);\n@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);\nP {\n  color: #b8312f;\n}\nI {\n  font-size: 20px;\n  font-family: 'Lora', serif;\n}\nH3 {\n  color: #000000;\n  font-family: 'Oswald', sans-serif;\n}\ntext-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);",
-          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"6\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/5ed3b22d18cb3-998x560.jpg&quot;); padding-top: 100px; padding-bottom: 100px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.8; background-color: rgb(255, 255, 255);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              \n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-right content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-family: Raleway, sans-serif;\" code-editable-id=\"41\">WEATHER WARFARE WATCH!</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"42\"><strong><em>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</em>.</strong></p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-danger mbr-editable-button\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" target=\"_blank\" code-editable-id=\"43\">MORE</a></div>\n              </div>\n\n\n              \n\n\n              <div class=\"mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 58%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=UU6yLktIZU6oiYq618ZDP_Nw\" width=\"1380\" height=\"920\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customCSS": "text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);",
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"6\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/5ed3b22d18cb3-998x560.jpg&quot;); padding-top: 100px; padding-bottom: 100px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(255, 255, 255);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              \n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-right content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-family: Raleway, sans-serif;\" code-editable-id=\"25\">WEATHER WARFARE WATCH!</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"26\"><strong><em>16 DAY FORECAST&nbsp;- EVERY SUNDAY NIGHT<br>LIVE STREAM UPDATES - EVERY NIGHT</em>.</strong></p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-danger mbr-editable-button\" href=\"https://www.youtube.com/channel/UC6yLktIZU6oiYq618ZDP_Nw\" target=\"_blank\" code-editable-id=\"27\">MORE</a></div>\n              </div>\n\n\n              \n\n\n              <div class=\"mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 58%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=UU6yLktIZU6oiYq618ZDP_Nw\" width=\"1380\" height=\"920\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "20px",
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff"
+          },
+          "title": "CHEMTRAILS, CIRRUS CLOUDS",
+          "meta": "<span style=\"font-style: normal;\">Cirrus clouds are short, detached, hair-like clouds found at high altitudes. These delicate clouds are wispy, with a silky sheen, or look like tufts of hair. In the daytime, they are whiter than any other cloud in the sky.</span>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": "text-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.6);",
+          "_anchor": "header3-19"
         },
         {
           "_styles": {
@@ -258,16 +289,22 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "20px"
             }
           },
           "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgColor": "#fff"
           },
           "title": "FROM THE SKY AND THE SEA",
-          "meta": "By John Smith posted July 20, 2016",
+          "meta": "A new analysis by sustainable transport group Transport &amp; Environment asserts that Carnival Corporation ships emitted nearly 10 times more SOx around European coasts than did all 260 million European cars in 2017. Royal Caribbean is estimated to have emitted four times more than the European car fleet",
           "_tags": [
             "Theme"
           ],

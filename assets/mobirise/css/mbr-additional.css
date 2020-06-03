@@ -14,6 +14,9 @@
 
 
 
+
+
+
 body,
 input,
 textarea,
@@ -775,21 +778,22 @@ section.form .container {
   font-family: 'Oswald', sans-serif;
 }
 #msg-box5-j {
-  
-  
-  
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
 }
-#msg-box5-j P {
-  color: #b8312f;
+#header3-19 {
+  text-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.6);
 }
-#msg-box5-j I {
+#header3-19 .mbr-section-title,
+#header3-19 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-19 .mbr-section-subtitle {
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  font-family: 'Lora', serif;
-}
-#msg-box5-j H3 {
   color: #000000;
-  font-family: 'Oswald', sans-serif;
+}
+#header3-19 .mbr-section-subtitle SPAN {
+  font-family: 'Raleway', sans-serif;
 }
 #msg-box8-17 {
   text-shadow: 0.8em 0.8em 1.5em rgba(0, 0, 0, 0.6);
@@ -807,6 +811,11 @@ section.form .container {
 #header3-10 .mbr-section-title,
 #header3-10 .mbr-section-subtitle {
   text-align: center;
+}
+#header3-10 .mbr-section-subtitle {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 #msg-box8-z {
   text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
