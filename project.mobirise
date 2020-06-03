@@ -95,8 +95,8 @@
             "showTitle": true,
             "showText": true,
             "showButton": true,
-            "paddingTop": "1",
-            "paddingBottom": "5",
+            "paddingTop": "2",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
@@ -283,7 +283,7 @@
           ],
           "_name": "msg-box8",
           "_anchor": "msg-box8-17",
-          "_customCSS": "text-shadow: 0.8em 0.8em 1.5em rgba(0, 0, 0, 0.8);"
+          "_customCSS": "text-shadow: 0.8em 0.8em 1.5em rgba(0, 0, 0, 0.6);"
         },
         {
           "_styles": {
