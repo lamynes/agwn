@@ -283,7 +283,7 @@
           ],
           "_name": "msg-box8",
           "_anchor": "msg-box8-17",
-          "_customCSS": "text-shadow: 0.8em 0.8em 1.5em rgba(0, 0, 0, 0.6);"
+          "_customCSS": "text-shadow: 0.8em 0.8em 1.5em rgba(0, 0, 0, 0.8);"
         },
         {
           "_styles": {
