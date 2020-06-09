@@ -19,6 +19,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -860,4 +861,18 @@ section.form .container {
 }
 #msg-box8-1a .lead {
   color: #efefef;
+}
+#header3-1e {
+  text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.6);
+}
+#header3-1e .mbr-section-title,
+#header3-1e .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1e .mbr-section-title {
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+}
+#header3-1e .mbr-section-title P {
+  font-size: 36px;
 }
